@@ -1,0 +1,19 @@
+package exercicioMatriz;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Digite o numero de Linhas: ");
+		int n = sc.nextInt();
+		System.out.print("Digite o numero de Colunas: ");
+		int m = sc.nextInt();
+		
+		int[][] mat = new int[n][m];
+		
+	}
+
+}

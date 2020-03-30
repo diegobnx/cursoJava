@@ -1,0 +1,14 @@
+package entidades;
+
+public class Aluguel {
+
+	private String name;
+	private String email;
+	private int quarto;
+	
+	public Aluguel(String name, String email, int quarto) {
+		this.name = name;
+		this.email = email;
+		this.quarto = quarto;
+	}
+}

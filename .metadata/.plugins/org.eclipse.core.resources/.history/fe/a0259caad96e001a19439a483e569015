@@ -1,0 +1,22 @@
+package aplicacao;
+
+import java.util.Scanner;
+import entidades.Aluguel;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		
+		Aluguel[] vect = new Aluguel[n];
+		
+		
+		
+		
+		
+		sc.close();
+	}
+
+}

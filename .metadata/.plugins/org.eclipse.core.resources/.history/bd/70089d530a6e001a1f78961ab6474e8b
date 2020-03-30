@@ -1,0 +1,21 @@
+package entidades;
+
+public class Conta {
+	
+	private int numero;
+	private String titular;
+	private double balanco;
+	
+	public Conta(int numero, String titular) {
+		
+		this.numero = numero;
+		this.titular = titular;
+	}
+	
+	public Conta(int numero, String titular, double balanco) {
+		
+		this.numero = numero;
+		this.titular = titular;
+		this.balanco = balanco;
+	}
+}

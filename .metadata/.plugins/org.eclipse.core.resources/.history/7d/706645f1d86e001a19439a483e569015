@@ -1,0 +1,13 @@
+package entidades;
+
+public class Hotel {
+
+	private String name;
+	private String email;
+	private int quarto;
+	
+	public Hotel(String name, String email, int quarto) {
+		
+	}
+	
+}
